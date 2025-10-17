@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "Iphone 16 Pro Max",
+    "price": 29000000,
+    "image": "https://res.cloudinary.com/dy1unykph/image/upload/v1740037805/apple-iphone-16-pro-natural-titanium_lcnlu2.webp",
+    "cate_id": 2
+  },
+  {
+    "id": 2,
+    "name": "Iphone Pro Max 17",
+    "price": 29000000,
+    "image": "https://cdn2.cellphones.com.vn/insecure/rs:fill:300:300/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-17-pro-max_3.jpg",
+    "cate_id": 2
+  },
+  {
+    "id": 3,
+    "name": "Macbook Air M4",
+    "price": 29000000,
+    "image": "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook_4__1_3.png",
+    "cate_id": 1
+  },
+  {
+    "id": 4,
+    "name": "Xiaomi Pad 7",
+    "price": 29000000,
+    "image": "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-pad-7_4__1.png",
+    "cate_id": 3
+  },
+  {
+    "id": 5,
+    "name": "Iphone 14",
+    "price": 29000000,
+    "image": "https://res.cloudinary.com/dy1unykph/image/upload/v1729091915/refurb-iphone-14-pro-spaceblack-202404_zrfqfz.jpg",
+    "cate_id": 2
+  },
+  {
+    "id": 6,
+    "name": "Macbook M4 Pro",
+    "price": 29000000,
+    "image": "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/a/macbook_9__4.png",
+    "cate_id": 1
+  }
+]
+
