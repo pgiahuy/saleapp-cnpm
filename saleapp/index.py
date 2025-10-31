@@ -1,6 +1,7 @@
-from flask import Flask, render_template, request
-import dao
-from saleapp import  app
+import math
+from flask import render_template, request
+from . import dao
+from . import app
 
 
 
@@ -8,10 +9,13 @@ from saleapp import  app
 def index():
     q= request.args.get("q")
     cate_id = request.args.get("cate_id")
-    print(cate_id)
+    page = request.args.get("page")
 
-    products = dao.load_products(q,cate_id)
-    return render_template("index.html", products=products)
+    pages = math.ceil(dao.count_product() / app.config["PAGE_SIZE"])
+    products = dao.load_products(q,cate_id,page)
+
+    return render_template("index.html", products=products,pages=pages)
+
 
 
 @app.route("/products/<int:id>")
@@ -25,6 +29,9 @@ def common_attribute():
         "cates": dao.load_categories()
     }
 
+@app.route("/login")
+def login():
+    return render_template("login.html")
 
 
 if __name__ == "__main__":
